@@ -20,6 +20,39 @@ public class Solution29
         // the final product.
 
         double rateOfReturn = solution.checkDouble("What is the rate of return? ");
+        solution.printOutput(rateOfReturn);
+    }
+    private double checkDouble(String input)
+    {
+        boolean notNumber = true;
+        String userInput;
+        double userDouble = 0;
 
+        while (notNumber) {
+            System.out.print(input);
+            userInput = reader.next();
+            try
+            {
+                userDouble = Double.parseDouble(userInput);
+                if (userDouble == 0)
+                {
+                    System.out.println("Sorry, that is not a valid input.");
+                }
+                else
+                {
+                    notNumber = false;
+                }
+            }
+            catch (NumberFormatException e)
+            {
+                System.out.println("Sorry, that is not a valid input.");
+                userDouble = 0;
+            }
+        }
+        return userDouble;
+    }
+    private void printOutput(double rateOfReturn)
+    {
+        System.out.print("It will take " + (int)(72.0/rateOfReturn) + " years to double your initial investment.");
     }
 }
