@@ -78,22 +78,23 @@ public class Solution25
     }
     private String checkPasswordStrength(int passwordStrength, String password)
     {
-        String outputStatement = outputStatement = "The password \'" + password + "\' is a password of unknown strength.";
+        String outputStatement = outputStatement = "The password '" + password + "' is a password of unknown strength.";
+
         if (passwordStrength == 0)
         {
-            outputStatement = "The password \'" + password + "\' is a very weak password.";
+            outputStatement = "The password '" + password + "' is a very weak password.";
         }
         if (passwordStrength == 1)
         {
-            outputStatement = "The password \'" + password + "\' is a weak password.";
+            outputStatement = "The password '" + password + "' is a weak password.";
         }
         if (passwordStrength == 2)
         {
-            outputStatement = "The password \'" + password + "\' is a strong password.";
+            outputStatement = "The password '" + password + "' is a strong password.";
         }
         if (passwordStrength == 3)
         {
-            outputStatement = "The password \'" + password + "\' is a very strong password.";
+            outputStatement = "The password '" + password + "' is a very strong password.";
         }
         return outputStatement;
     }
