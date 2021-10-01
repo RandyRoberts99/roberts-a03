@@ -28,9 +28,31 @@ public class Solution28
         int sum = 0;
         for (int i = 0; i < 5; i++)
         {
-            System.out.print("Enter a number: ");
-            sum += reader.nextInt();
+            sum += getInt("Enter a number: ");
         }
         return sum;
+    }
+    private int getInt(String input)
+    {
+        boolean notNumber = true;
+        String userInput;
+        int userInt = 0;
+
+        while (notNumber)
+        {
+            System.out.print(input);
+            userInput = reader.next();
+            try
+            {
+                userInt = Integer.parseInt(userInput);
+                notNumber = false;
+            }
+            catch (NumberFormatException e)
+            {
+                System.out.println("Enter a valid number!");
+                userInt = 0;
+            }
+        }
+        return userInt;
     }
 }
