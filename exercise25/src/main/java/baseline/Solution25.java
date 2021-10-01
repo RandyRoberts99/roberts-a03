@@ -16,14 +16,13 @@ public class Solution25
         Solution25 solution = new Solution25();
 
         // prompt the user to enter a password
-        // determine the strength of a password through passwordValidator and returning an int that is the
-        // score of said password, 1-4
-        // create an output according to the integer
-
         String password = solution.getString("Enter your password: ");
 
+        // determine the strength of a password through passwordValidator and returning an int that is the
+        // score of said password, 1-4
         int passwordStrength = solution.passwordValidator(password);
 
+        // create an output according to the integer
         String output = solution.checkPasswordStrength(passwordStrength, password);
 
         System.out.print(output);

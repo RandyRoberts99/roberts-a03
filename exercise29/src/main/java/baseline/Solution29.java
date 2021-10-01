@@ -16,10 +16,11 @@ public class Solution29
         Solution29 solution = new Solution29();
 
         // Implement a function that will try and catch and number format exceptions, until the user
-        // enters a valid double. At that point, do a calculation to determine the final product, and print
-        // the final product.
-
+        // enters a valid double.
         double rateOfReturn = solution.checkDouble("What is the rate of return? ");
+
+        // At that point, do a calculation to determine the final product, and print
+        // the final product.
         solution.printOutput(rateOfReturn);
     }
     private double checkDouble(String input)

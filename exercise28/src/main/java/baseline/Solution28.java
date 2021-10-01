@@ -17,10 +17,9 @@ public class Solution28
 
         // Prompt the user to enter five integers with a loop
         // Return the sum of all five integers by adding each integer in the loop to the sum.
-        // Print the sum
-
         int sum = solution.getSumOfFive();
 
+        // Print the sum
         System.out.print("The total is: " + sum + ".");
     }
     private int getSumOfFive()

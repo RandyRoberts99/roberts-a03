@@ -16,18 +16,18 @@ public class Solution24
 
         Solution24 solution = new Solution24();
 
-        // Take user input 1
-        // Take user input 2
-        // Check if they are anagrams (private bool isAnagram)
-        // Output according to the boolean
-
         System.out.println("Enter two strings and I'll tell you if they are anagrams: ");
 
+        // Take user input 1
         String strOne = solution.getString("Enter the first string: ");
+
+        // Take user input 2
         String strTwo = solution.getString("Enter the second string: ");
 
+        // Check if they are anagrams (private bool isAnagram)
         boolean isAnagram = solution.isAnagram(strOne, strTwo);
 
+        // Output according to the boolean
         solution.printOutput(isAnagram, strOne, strTwo);
     }
     private String getString(String prompt)

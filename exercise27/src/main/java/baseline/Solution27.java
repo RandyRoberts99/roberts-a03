@@ -19,9 +19,6 @@ public class Solution27
         // Take a last name
         // Take a zip code
         // Enter the employee ID
-        // Check each string entered, validate each one and concatenate into one string
-        // output that string
-
         String firstName = solution.getString("Enter the first name: ");
 
         String lastName = solution.getString("Enter the last name: ");
@@ -30,8 +27,10 @@ public class Solution27
 
         String employeeID = solution.getString("Enter the employee ID: ");
 
+        // Check each string entered, validate each one and concatenate into one string
         String finalResponse = solution.validateInput(firstName, lastName, zipCode, employeeID);
 
+        // output that string
         System.out.print(finalResponse);
     }
     private String getString(String prompt)

@@ -1,7 +1,7 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜ÇšŒùÿÿÿÿ8…Œ—¬Ã/
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(Æİêùÿÿÿÿ8†Œ—¬Ã/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜ÇšŒùÿÿÿÿ8…Œ—¬Ã/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Æİêùÿÿÿÿ8†Œ—¬Ã/
 e
-java:S1854Q"CRemove this useless assignment to local variable "outputStatement".(•—–¸şÿÿÿÿ8‘Œ—¬Ã/
+java:S1854P"CRemove this useless assignment to local variable "outputStatement".(•—–¸şÿÿÿÿ8‘Œ—¬Ã/
 q
-java:S1192Q"ODefine a constant instead of duplicating this literal "The password '" 5 times.(•—–¸şÿÿÿÿ8‚ì§¬Ã/
+java:S1192P"ODefine a constant instead of duplicating this literal "The password '" 5 times.(•—–¸şÿÿÿÿ8‚ì§¬Ã/
