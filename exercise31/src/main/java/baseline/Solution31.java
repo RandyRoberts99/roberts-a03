@@ -22,10 +22,45 @@ public class Solution31
         // To do this, I will create a loop that will track the current intensity i'm at and calculate at that intensity
         // until I have reached the desired result of 95%.
 
-        //double age = solution.getDouble("What is the age? ");
-        //double restingHR = solution.getDouble("What is the resting heart rate? ");
+        double age = solution.getDouble("What is the age? ");
+        double restingHR = solution.getDouble("What is the resting heart rate? ");
 
-        //solution.printKarvonenHeartRates(age, restingHR);
+        solution.printKarvonenHeartRates(age, restingHR);
     }
+    private double getDouble(String input)
+    {
+        boolean notNumber = true;
+        String userInput;
+        double userDouble = 0;
 
+        while (notNumber)
+        {
+            System.out.print(input);
+            userInput = reader.next();
+            try
+            {
+                userDouble = Double.parseDouble(userInput);
+                notNumber = false;
+            }
+            catch (NumberFormatException e)
+            {
+                System.out.println("Enter a valid number!");
+                userDouble = 0;
+            }
+        }
+        return userDouble;
+    }
+    private void printKarvonenHeartRates(double age, double restingHR)
+    {
+        System.out.print("Intensity    | Rate\n-------------|--------\n");
+        double intensity = 55.0;
+        while (intensity <= 95.0)
+        {
+            int targetHeartRate = (int)Math.round(((((220.0 - age) - restingHR) * (intensity/100.0)) + restingHR));
+
+            System.out.print((int)intensity + "%          | " + targetHeartRate + " bpm\n");
+
+            intensity += 5.0;
+        }
+    }
 }
