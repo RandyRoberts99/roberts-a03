@@ -52,13 +52,13 @@ public class Solution31
     }
     private void printKarvonenHeartRates(double age, double restingHR)
     {
-        System.out.print("Intensity    | Rate\n-------------|--------\n");
+        System.out.print("Resting Pulse: " + (int)restingHR + "        Age: " + (int)age + "\nIntensity    | Rate\n-------------|--------");
         double intensity = 55.0;
         while (intensity <= 95.0)
         {
             int targetHeartRate = (int)Math.round(((((220.0 - age) - restingHR) * (intensity/100.0)) + restingHR));
 
-            System.out.print((int)intensity + "%          | " + targetHeartRate + " bpm\n");
+            System.out.print("\n" + (int)intensity + "%          | " + targetHeartRate + " bpm");
 
             intensity += 5.0;
         }
