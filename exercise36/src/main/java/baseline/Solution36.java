@@ -31,7 +31,7 @@ public class Solution36
 
         int max = solution.getMax(values);
 
-        double std = solution.getStd(values, average);
+        double std = solution.getStd(values);
     }
     private ArrayList<Integer> fillValues(ArrayList<Integer> values)
     {
@@ -115,7 +115,7 @@ public class Solution36
 
         return currMax;
     }
-    private double getStd(ArrayList<Integer>values, double average)
+    private double getStd(ArrayList<Integer>values)
     {
         double sum = 0.0;
         double standardDeviation = 0.0;
