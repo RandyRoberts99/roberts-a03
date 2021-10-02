@@ -17,21 +17,21 @@ public class Solution36
         Solution36 solution = new Solution36();
 
         // Create an arraylist and store values inside the arraylist until the user enters "done" into the array
-        ArrayList<Integer> values = new ArrayList<Integer>();
 
-        values = solution.fillValues(values);
+
+        ArrayList<Integer>values = solution.fillValues(new ArrayList<Integer>());
 
         // create multiple functions to get data to use in the output of the array (average, standard deviation, etc.)
         // output in the appropriate format.
         solution.printList(values);
 
-        double average = solution.getAverage(values);
+        solution.getAverage(values);
 
-        int min = solution.getMin(values);
+        solution.getMin(values);
 
-        int max = solution.getMax(values);
+        solution.getMax(values);
 
-        double std = solution.getStd(values);
+        solution.getStd(values);
     }
     private ArrayList<Integer> fillValues(ArrayList<Integer> values)
     {
@@ -82,7 +82,9 @@ public class Solution36
             fullAverage += (double)values.get(i);
         }
         fullAverage /= values.size();
-        System.out.printf("The Average is %1.1f\n", fullAverage);
+
+        System.out.printf("The Average is %1.1f%n", fullAverage);
+
         return fullAverage;
     }
     private int getMin(ArrayList<Integer> values)
