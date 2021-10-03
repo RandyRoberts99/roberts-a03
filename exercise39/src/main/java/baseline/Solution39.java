@@ -42,5 +42,79 @@ public class Solution39
         // print the newly sorted list of employees
         solution.printEmployeeList(employeeList);
     }
+    private Map<String,String> populateEmployee(String firstName, String lastName, String position, String sepDate)
+    {
+        Map<String, String> employee = new HashMap<String, String>();
+
+        employee.put("firstname", firstName);
+        employee.put("lastname", lastName);
+        employee.put("position", position);
+        employee.put("sepdate", sepDate);
+
+        return employee;
+    }
+    private List<Map<String, String>> sortEmployees(List<Map<String, String>> employeeList)
+    {
+        List<String> lastNameList = new ArrayList<String>();
+
+        for (int i = 0; i < employeeList.size(); i++)
+        {
+            Map<String, String> employee = (Map<String, String>) employeeList.get(i);
+            lastNameList.add(employee.get("lastname"));
+        }
+        Collections.sort(lastNameList);
+
+        for (int i = 0; i < employeeList.size(); i++)
+        {
+            String currentLastName = lastNameList.get(i);
+            for (int j = 0; j < employeeList.size(); j++)
+            {
+                Map<String, String> employee = (Map<String, String>) employeeList.get(j);
+                if (employee.get("lastname").equalsIgnoreCase(currentLastName))
+                {
+                    Collections.swap(employeeList, i, j);
+                }
+            }
+        }
+        return employeeList;
+    }
+    private void printEmployeeList(List<Map<String, String>> employeeList)
+    {
+        System.out.print("Name                | Position          | Separation Date\n");
+        System.out.print("--------------------|-------------------|----------------\n");
+        for (int i = 0; i < employeeList.size(); i++)
+        {
+            Map<String, String> employee = (Map<String, String>) employeeList.get(i);
+
+            String fullName = employee.get("firstname") + " " + employee.get("lastname");
+            System.out.print(fullName);
+
+            int numNameSpaces = 20 - fullName.length();
+            for (int y = 0; y < numNameSpaces; y++)
+            {
+                System.out.print(" ");
+            }
+
+            System.out.print("| ");
+
+            String position = employee.get("position");
+            System.out.print(position);
+
+            int numPositionSpaces = 18 - position.length();
+            for (int z = 0; z < numPositionSpaces; z++)
+            {
+                System.out.print(" ");
+            }
+
+            System.out.print("| ");
+            System.out.print(employee.get("sepdate") + "\n");
+        }
+    }
+    // to be used after the list of last names is sorted
+    @Test
+    private void testLastNameList(List<String> lastNameList)
+    {
+        assertEquals("Jackson", lastNameList.get(0));
+    }
 }
 
