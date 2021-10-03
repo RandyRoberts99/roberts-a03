@@ -1,9 +1,5 @@
 
-c	java:S116"NRename this field "APR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËˆÙ¶
 M
-java:S5960("+Remove this assertion from production code.(ïì¬¢üÿÿÿÿ8²å»Ä/
-=
-java:S1068"'Remove this unused "APR" private field.(ËˆÙ¶
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬’°°úÿÿÿÿ
-z
-java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "numMonthsInt".(÷„ŒŸ
+java:S5960&"+Remove this assertion from production code.(ïì¬¢üÿÿÿÿ8²å»Ä/
+I
+java:S1068"'Remove this unused "apr" private field.(˜Ÿ€ñøÿÿÿÿ8şŠºÀÄ/

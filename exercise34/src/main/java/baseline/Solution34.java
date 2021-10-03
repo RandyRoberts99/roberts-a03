@@ -30,7 +30,7 @@ public class Solution34
         String userEmpChoice = solution.checkEmployeeChoice(employeeNames);
 
         // delete the users input from the list, and output the new list
-        employeeNames = solution.deleteEmployeeFromList(userEmpChoice, employeeNames);
+        solution.deleteEmployeeFromList(userEmpChoice, employeeNames);
 
         System.out.print("There are " + (employeeNames.length - 1) + " employees.\n");
 
@@ -41,11 +41,7 @@ public class Solution34
     {
         for (int i = 0; i < 5; i++)
         {
-            if (employeeNames[i] == null)
-            {
-                continue;
-            }
-            else
+            if (employeeNames[i] != null)
             {
                 System.out.print(employeeNames[i] + "\n");
             }
@@ -89,7 +85,7 @@ public class Solution34
     @Test
     private void testDeleteEmployeeFromList(String[] employeeNames)
     {
-        employeeNames = deleteEmployeeFromList("Jimmy Johnson", employeeNames);
+        deleteEmployeeFromList("Jimmy Johnson", employeeNames);
         assertEquals("John Doe", employeeNames[0]);
     }
 }

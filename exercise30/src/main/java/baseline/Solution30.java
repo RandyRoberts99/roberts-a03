@@ -5,12 +5,8 @@
 
 package baseline;
 
-import java.util.Scanner;
-
 public class Solution30
 {
-    private static final Scanner reader = new Scanner(System.in);
-
     public static void main(String[] args)
     {
         Solution30 solution = new Solution30();
@@ -37,11 +33,7 @@ public class Solution30
                 }
                 System.out.print(product);
             }
-            if (x == multiple)
-            {
-                continue;
-            }
-            else
+            if (x != multiple)
             {
                 System.out.print("\n");
             }

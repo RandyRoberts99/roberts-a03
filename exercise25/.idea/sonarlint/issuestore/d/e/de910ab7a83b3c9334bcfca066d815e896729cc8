@@ -1,9 +1,5 @@
 
 S	java:S106 "9Replace this use of System.out or System.err by a logger.(˜ÇšŒùÿÿÿÿ
 S	java:S106%"9Replace this use of System.out or System.err by a logger.(Æİêùÿÿÿÿ
-^
-java:S1854T"CRemove this useless assignment to local variable "outputStatement".(•—–¸şÿÿÿÿ
-H
-java:S5960l"+Remove this assertion from production code.(•èÒ8éğÌ»Ä/
-j
-java:S1192T"ODefine a constant instead of duplicating this literal "The password '" 5 times.(•—–¸şÿÿÿÿ
+A
+java:S5960m"+Remove this assertion from production code.(•èÒ

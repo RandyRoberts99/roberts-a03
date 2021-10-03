@@ -1,0 +1,23 @@
+
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ÊŒØ“
+Z	java:S106W"9Replace this use of System.out or System.err by a logger.(Àµáüøÿÿÿÿ8ñ—ü¿Ä/
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ºœµƒıÿÿÿÿ8ò—ü¿Ä/
+U	java:S106g"9Replace this use of System.out or System.err by a logger.(­‘ŠŠ8ó—ü¿Ä/
+U	java:S106l"9Replace this use of System.out or System.err by a logger.(×•œ²8ó—ü¿Ä/
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8ó—ü¿Ä/
+U	java:S106r"9Replace this use of System.out or System.err by a logger.(¿»³Ã8ó—ü¿Ä/
+U	java:S106w"9Replace this use of System.out or System.err by a logger.(×•œ²8ô—ü¿Ä/
+Z	java:S106y"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8ô—ü¿Ä/
+T	java:S106z"9Replace this use of System.out or System.err by a logger.(Â°ğ8ô—ü¿Ä/
+N
+java:S5960"+Remove this assertion from production code.(ˆøËøÿÿÿÿ8õ—ü¿Ä/
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î ´È
+{
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(²£Üëüÿÿÿÿ8ö—ü¿Ä/
+{
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(ï×ä²ıÿÿÿÿ8ö—ü¿Ä/
+l
+java:S11925"JDefine a constant instead of duplicating this literal "firstname" 3 times.(¯Ü˜Áúÿÿÿÿ8ö—ü¿Ä/
+f
+java:S11926"IDefine a constant instead of duplicating this literal "lastname" 5 times.(Ê§É8ö—ü¿Ä/

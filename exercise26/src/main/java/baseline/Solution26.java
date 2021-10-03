@@ -20,13 +20,13 @@ public class Solution26
 
         // percentages can be written with decimal places, so double makes the most sense to use
         // Take in the APR as a double
-        double APR = solution.getDouble("What is the APR on the card (as a percent)? ");
+        double apr = solution.getDouble("What is the APR on the card (as a percent)? ");
 
         // Take in the monthly payment as a double
         double monthlyPayment = solution.getDouble("What is the monthly payment you can make? ");
 
         // constructor of payment calculator
-        PaymentCalculator paymentCalculator = new PaymentCalculator(balance, APR, monthlyPayment);
+        PaymentCalculator paymentCalculator = new PaymentCalculator(balance, apr, monthlyPayment);
 
         // Output the number of months
         int numMonths = paymentCalculator.calculateMonthsUntilPaidOff();

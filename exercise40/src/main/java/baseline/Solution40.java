@@ -1,6 +1,5 @@
 package baseline;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -64,7 +63,7 @@ public class Solution40
 
         for (int i = 0; i < employeeList.size(); i++)
         {
-            Map<String, String> employee = (Map<String, String>) employeeList.get(i);
+            Map<String, String> employee = employeeList.get(i);
             lastNameList.add(employee.get("lastname"));
         }
         Collections.sort(lastNameList);
@@ -74,7 +73,7 @@ public class Solution40
             String currentLastName = lastNameList.get(i);
             for (int j = 0; j < employeeList.size(); j++)
             {
-                Map<String, String> employee = (Map<String, String>) employeeList.get(j);
+                Map<String, String> employee = employeeList.get(j);
                 if (employee.get("lastname").equalsIgnoreCase(currentLastName))
                 {
                     Collections.swap(employeeList, i, j);
@@ -89,7 +88,7 @@ public class Solution40
         System.out.print("--------------------|-------------------|----------------\n");
         for (int i = 0; i < employeeList.size(); i++)
         {
-            Map<String, String> employee = (Map<String, String>) employeeList.get(i);
+            Map<String, String> employee = employeeList.get(i);
 
             boolean isValidEmployee = checkEmployee(employee, userSearchInput);
             if (isValidEmployee)

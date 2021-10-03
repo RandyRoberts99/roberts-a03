@@ -31,20 +31,18 @@ public class Solution35
     {
         System.out.print("Enter a name: ");
         String userInput = reader.nextLine();
-        while (userInput != "")
+        while (!(userInput.equals("")))
         {
             names.add(userInput);
             System.out.print("Enter a name: ");
             userInput = reader.nextLine();
         }
-        String winnerName = getRandomName(names);
-        return winnerName;
+        return getRandomName(names);
     }
     private String getRandomName(ArrayList<String> names)
     {
         int i = names.size();
         int randomWinnerIndex = rand.nextInt(i);
-        String randomWinnerName = names.get(randomWinnerIndex);
-        return randomWinnerName;
+        return names.get(randomWinnerIndex);
     }
 }

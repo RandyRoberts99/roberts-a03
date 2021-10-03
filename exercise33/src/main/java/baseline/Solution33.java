@@ -23,7 +23,7 @@ public class Solution33
         // Prompt the user for a question and output a random response from the array
         System.out.print("What's your question? ");
 
-        String userResponse = reader.nextLine();
+        reader.nextLine();
 
         String randomResponse = solution.getResponse(questionResponses);
 

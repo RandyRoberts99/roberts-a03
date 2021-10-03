@@ -2,11 +2,5 @@
 S	java:S106"9Replace this use of System.out or System.err by a logger.( ³¯ÿÿÿÿÿ
 S	java:S106 "9Replace this use of System.out or System.err by a logger.(¸¯¼ıÿÿÿÿ
 S	java:S106%"9Replace this use of System.out or System.err by a logger.(¸¯¼ıÿÿÿÿ
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£Êµú
-}
-java:S1488("bImmediately return this expression instead of assigning it to the temporary variable "winnerName".(ö´åïüÿÿÿÿ
-ƒ
-java:S1488/"hImmediately return this expression instead of assigning it to the temporary variable "randomWinnerName".(ìòÂÍûÿÿÿÿ
-Y
-java:S4973""<Strings and Boxed types should be compared using "equals()".(ñ¯8ÁÍïôÃ/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£Êµú8ÏüêÀÄ/
