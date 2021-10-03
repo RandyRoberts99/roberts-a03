@@ -5,6 +5,10 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class PaymentCalculator
 {
     private double balance;
@@ -27,5 +31,12 @@ public class PaymentCalculator
         int numMonthsInt = (int)(Math.ceil(numMonths));
 
         return numMonthsInt;
+    }
+    @Test
+    private void testCalculateMonthsUntilPaidOff()
+    {
+        PaymentCalculator paymentCalculator = new PaymentCalculator(1, 1, 1);
+        int numMonths = paymentCalculator.calculateMonthsUntilPaidOff();
+        assertEquals(2, numMonths);
     }
 }

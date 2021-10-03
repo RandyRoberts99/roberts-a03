@@ -5,7 +5,11 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution27
 {
@@ -119,5 +123,12 @@ public class Solution27
             finalResponse = "There were no errors found.";
         }
         return finalResponse;
+    }
+    @Test
+    private void testEmpId(String employeeID)
+    {
+        String empID = checkEmpID("Test String");
+
+        assertEquals("The employee ID must be in the format of AA-1234.\n", empID);
     }
 }

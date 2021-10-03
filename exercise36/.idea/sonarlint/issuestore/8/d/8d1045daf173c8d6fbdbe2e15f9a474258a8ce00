@@ -1,13 +1,15 @@
 
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(ÖáõÓ8ïº»úÃ/
-Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ï¼Šùÿÿÿÿ8ğº»úÃ/
-Z	java:S106B"9Replace this use of System.out or System.err by a logger.(åœ±íùÿÿÿÿ8ğº»úÃ/
-U	java:S106E"9Replace this use of System.out or System.err by a logger.(Úø½™8ğº»úÃ/
-Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Ø–ªùÿÿÿÿ8ñº»úÃ/
-T	java:S106K"9Replace this use of System.out or System.err by a logger.(°•Ş8ñº»úÃ/
-Z	java:S106V"9Replace this use of System.out or System.err by a logger.(¦«ıÿÿÿÿ8ñº»úÃ/
-Z	java:S106e"9Replace this use of System.out or System.err by a logger.(‘âîÂûÿÿÿÿ8òº»úÃ/
-U	java:S106t"9Replace this use of System.out or System.err by a logger.(åª©Í8óº»úÃ/
-U	java:S106‰"9Replace this use of System.out or System.err by a logger.(ºÂ‰8ôº»úÃ/
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ôªõ¥şÿÿÿÿ8‘°ÏúÃ/
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ÖáõÓ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ï¼Šùÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(åœ±íùÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(Úø½™
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(Ø–ªùÿÿÿÿ
+M	java:S106O"9Replace this use of System.out or System.err by a logger.(°•Ş
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(¦«ıÿÿÿÿ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(‘âîÂûÿÿÿÿ
+N	java:S106x"9Replace this use of System.out or System.err by a logger.(åª©Í
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ºÂ‰
+I
+java:S5960•"+Remove this assertion from production code.(¾ææ8”±ˆ½Ä/
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ôªõ¥şÿÿÿÿ

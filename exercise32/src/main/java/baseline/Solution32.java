@@ -5,8 +5,12 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Scanner;
 import java.util.Random;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution32
 {
@@ -170,5 +174,11 @@ public class Solution32
 
             userResponse = checkUserPlayResponse("Do you wish to play again (Y/N)? ");
         }
+    }
+    @Test
+    private void testSetDifficulty()
+    {
+        int difficulty = setDifficulty(2);
+        assertEquals(100, difficulty);
     }
 }

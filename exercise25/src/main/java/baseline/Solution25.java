@@ -5,7 +5,11 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution25
 {
@@ -95,5 +99,12 @@ public class Solution25
             outputStatement = "The password '" + password + "' is a very strong password.";
         }
         return outputStatement;
+    }
+    @Test
+    private void testPasswordStrength()
+    {
+        int testPassword = passwordValidator("*$(@!)JIFOJEEOIJF1233");
+
+        assertEquals(3,testPassword);
     }
 }

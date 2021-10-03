@@ -5,8 +5,12 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution24
 {
@@ -69,5 +73,9 @@ public class Solution24
         {
             System.out.print("\"" + strOne + "\" and \"" + strTwo + "\" are not anagrams.");
         }
+    }
+    @Test
+    private void testIsAnagram(String strOne, String strTwo) {
+        assertEquals(strOne, strTwo);
     }
 }

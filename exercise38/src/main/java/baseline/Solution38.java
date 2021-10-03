@@ -5,8 +5,12 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution38
 {
@@ -56,5 +60,12 @@ public class Solution38
         {
             System.out.print(" " + evenNumbers.get(i));
         }
+    }
+    @Test
+    private void testEvenNumberFilter()
+    {
+        String[] userInput = {"1","2","3","4","5"};
+        ArrayList<Integer> evenNumbers = filterEvenNumbers(userInput);
+        assertEquals(2, evenNumbers.get(0));
     }
 }

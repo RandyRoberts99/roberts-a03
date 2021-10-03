@@ -5,8 +5,12 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution36
 {
@@ -137,5 +141,11 @@ public class Solution36
         System.out.print("The standard deviation is " + String.format("%1.2f", stdDeviation));
 
         return stdDeviation;
+    }
+    @Test
+    private void testStd(ArrayList<Integer>values)
+    {
+        double newStd = getStd(values);
+        assertEquals(81.650,newStd,0.000000000001);
     }
 }

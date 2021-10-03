@@ -5,7 +5,11 @@
 
 package baseline;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution34
 {
@@ -81,5 +85,11 @@ public class Solution34
             }
         }
         return employeeNames;
+    }
+    @Test
+    private void testDeleteEmployeeFromList(String[] employeeNames)
+    {
+        employeeNames = deleteEmployeeFromList("Jimmy Johnson", employeeNames);
+        assertEquals("John Doe", employeeNames[0]);
     }
 }
