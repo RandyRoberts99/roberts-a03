@@ -1,0 +1,16 @@
+
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ê£ÏÅùÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(²Åß
+S	java:S106B"9Replace this use of System.out or System.err by a logger.( â·”şÿÿÿÿ
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(Šè§ü
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(·ƒ³§ÿÿÿÿÿ
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(—Ç–Œüÿÿÿÿ
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(Šè§ü
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(Ûşö­
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(áñ›Üÿÿÿÿÿ
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(Šè§ü
+p
+java:S1192L"ZDefine a constant instead of duplicating this literal "That's an invalid input!
+" 3 times.(Šè§ü
+?
+java:S1643Ê"Use a StringBuilder instead.(Ì¢õæşÿÿÿÿ8Ø²İšÄ/
