@@ -1,20 +1,20 @@
 
-Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(Àµáüøÿÿÿÿ8àóŸ¾Ä/
-Z	java:S106R"9Replace this use of System.out or System.err by a logger.(ºœµƒıÿÿÿÿ8àóŸ¾Ä/
-U	java:S106X"9Replace this use of System.out or System.err by a logger.(­‘ŠŠ8àóŸ¾Ä/
-U	java:S106]"9Replace this use of System.out or System.err by a logger.(×•œ²8àóŸ¾Ä/
-Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8àóŸ¾Ä/
-U	java:S106c"9Replace this use of System.out or System.err by a logger.(¿»³Ã8àóŸ¾Ä/
-U	java:S106h"9Replace this use of System.out or System.err by a logger.(×•œ²8àóŸ¾Ä/
-Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8àóŸ¾Ä/
-T	java:S106l"9Replace this use of System.out or System.err by a logger.(Â°ğ8àóŸ¾Ä/
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(Àµáüøÿÿÿÿ8àóŸ¾Ä/
+Z	java:S106W"9Replace this use of System.out or System.err by a logger.(ºœµƒıÿÿÿÿ8àóŸ¾Ä/
+U	java:S106]"9Replace this use of System.out or System.err by a logger.(­‘ŠŠ8àóŸ¾Ä/
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(×•œ²8àóŸ¾Ä/
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8àóŸ¾Ä/
+U	java:S106h"9Replace this use of System.out or System.err by a logger.(¿»³Ã8àóŸ¾Ä/
+U	java:S106m"9Replace this use of System.out or System.err by a logger.(×•œ²8àóŸ¾Ä/
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8àóŸ¾Ä/
+T	java:S106q"9Replace this use of System.out or System.err by a logger.(Â°ğ8àóŸ¾Ä/
 M
-java:S5960s"+Remove this assertion from production code.(ş‡àõùÿÿÿÿ8àóŸ¾Ä/
+java:S5960x"+Remove this assertion from production code.(ş‡àõùÿÿÿÿ8àóŸ¾Ä/
 o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î ´È
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î ´È
 {
-java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(²£Üëüÿÿÿÿ8àóŸ¾Ä/
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(²£Üëüÿÿÿÿ8àóŸ¾Ä/
 {
-java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ï×ä²ıÿÿÿÿ8àóŸ¾Ä/
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(ï×ä²ıÿÿÿÿ8àóŸ¾Ä/
 f
-java:S11920"IDefine a constant instead of duplicating this literal "lastname" 4 times.(Ê§É8àóŸ¾Ä/
+java:S11925"IDefine a constant instead of duplicating this literal "lastname" 4 times.(Ê§É8àóŸ¾Ä/
